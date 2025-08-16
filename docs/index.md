@@ -3,7 +3,7 @@
 Welcome to the Volector documentation. Use the index below to navigate through the chapters.
 
 Chapters
-- [Introduction & Highlights](../README.md)
+- [Introduction & Highlights](./README.md)
   - See the project overview and highlights in the repository README.
 - [Getting Started](./getting-started.md)
   - Quick install and first run.
