@@ -1,0 +1,37 @@
+# Core dependencies
+httpx
+backoff
+pydantic
+
+# CLI/config
+PyYAML
+
+# Observability (optional; code has graceful fallbacks)
+prometheus-client
+opentelemetry-api
+
+# Scheduling & workers (optional)
+APScheduler
+celery
+redis
+
+# Storage to MinIO / S3 and Parquet (optional)
+boto3
+s3fs
+pyarrow
+pandas
+
+# Parsing enhancements (optional)
+beautifulsoup4
+lxml
+readability-lxml
+
+# Rendering (optional; requires separate browser install)
+playwright
+
+# Dedup hashing (optional; code falls back to sha256 if missing)
+mmh3
+
+
+#logs
+logging
