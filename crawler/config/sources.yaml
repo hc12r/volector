@@ -1,0 +1,10 @@
+sources:
+  - name: example-news
+    base_urls: ["https://example.com/news"]
+    country: MZ
+    language: pt
+    render: false
+    allow: ["/news/"]
+    deny: ["/login", "/privacy"]
+    schedule: "0 * * * *"
+    max_pages: 200
